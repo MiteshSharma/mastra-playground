@@ -53,7 +53,6 @@ mastra-playground/
 │   └── mastra/
 │       ├── agents/     # AI agents
 │       ├── mcp/        # MCP client implementation
-│       ├── tools/      # Custom tools
 │       └── index.ts    # Main entry point
 ├── .env                # Environment variables
 ├── mastra.config.ts    # Mastra configuration
@@ -66,7 +65,7 @@ mastra-playground/
 The project is configured through `mastra.config.ts`. Key settings include:
 
 - Telemetry: Disabled by default
-- Tools directory: `src/mastra/tools`
+- MCP directory: `src/mastra/mcp`
 - Agents directory: `src/mastra/agents`
 - Entry point: `src/mastra/index.ts`
 
@@ -83,7 +82,3 @@ If you encounter any issues:
 2. Ensure all dependencies are installed (`npm install`)
 3. Verify Node.js version is >= 18.0.0
 4. Check the console for specific error messages
-
-## License
-
-ISC 
